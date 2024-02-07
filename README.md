@@ -1,0 +1,2 @@
+# myservermail
+server mail project
