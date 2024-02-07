@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js",
+    "serve": "node server.js",
     "cliente": "npm start --prefix cliente",
     "dev": "concurrently \"npm run server\" \"npm run cliente\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix cliente && npm run build --prefix cliente"
